@@ -19,17 +19,17 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="/blogs"
+              href="/posts"
               className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
             >
-              Blog
+              posts
             </Link>
-            <Link
+            {/* <Link
               href="/contact"
               className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
 
           <ThemeToggle />
