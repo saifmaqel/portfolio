@@ -1,5 +1,4 @@
 "use server";
-// "use client";
 import z from "zod";
 import { ContactFormSchema } from "./schemas";
 import { Resend } from "resend";
