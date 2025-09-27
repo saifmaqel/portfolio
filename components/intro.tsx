@@ -15,6 +15,13 @@ function Intro() {
           production-ready applications while ensuring client satisfaction and
           optimizing system performance.
         </p>
+        <a
+          href="/Saif_Aqel_Resume.pdf"
+          download
+          className="mt-4 inline-block rounded bg-[#ad9830] px-4 py-2 text-white hover:bg-[#927f28]"
+        >
+          Download CV
+        </a>
       </div>
       <Image
         alt="Saif Aqel Image"

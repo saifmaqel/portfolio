@@ -19,10 +19,10 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="/posts"
+              href="/experience"
               className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
             >
-              posts
+              experience
             </Link>
             {/* <Link
               href="/contact"

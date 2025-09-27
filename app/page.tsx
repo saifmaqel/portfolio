@@ -1,4 +1,4 @@
-import RecentPosts from "@/components/post/recent-posts";
+import RecentExperiences from "@/components/experience/recent-Experience";
 import Intro from "../components/intro";
 import RecentProjects from "@/components/project/recent-projects";
 
@@ -8,7 +8,7 @@ function Home() {
       <div className="">
         <Intro />
         <RecentProjects />
-        <RecentPosts />
+        <RecentExperiences />
       </div>
     </>
   );
