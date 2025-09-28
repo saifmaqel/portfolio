@@ -12,7 +12,7 @@ async function RecentExperiences() {
         <h2 className="title mb-12">Recent Experiences</h2>
         <Experiences experiences={experiences} />
         <Link
-          href="/experiences"
+          href="/experience"
           className="text-muted-foreground hover:text-foreground mt-8 text-sm font-medium underline transition-colors"
         >
           All Experiences
