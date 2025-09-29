@@ -13,7 +13,11 @@ function Projects({ projects }: { projects: ProjectMetaData[] }) {
 
         return (
           <li key={slug} className="border-b pb-4">
-            <Link href={`/projects/${slug}`} className="block" prefetch>
+            <Link
+              href={`/projects/${slug}`}
+              className="block underline decoration-[1.5px] underline-offset-1 hover:decoration-[2px]"
+              prefetch
+            >
               <p className="text-2xl font-semibold">{title}</p>
             </Link>
 

@@ -41,7 +41,6 @@ export async function getProjectBySlug(slug: string): Promise<Project | null> {
       content
     };
   } catch (error) {
-    console.log(error);
     return null;
   }
 }

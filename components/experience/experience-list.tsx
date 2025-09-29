@@ -16,7 +16,9 @@ function ExperienceList({
             className="block"
             prefetch
           >
-            <h2 className="text-xl font-bold">{experience.title}</h2>
+            <h2 className="text-xl font-bold underline decoration-[1.5px] underline-offset-1 hover:decoration-[2px]">
+              {experience.title}
+            </h2>
             <div className="text-muted-foreground mt-1 flex flex-col gap-1 text-sm">
               {experience.company && (
                 <p>
