@@ -21,7 +21,7 @@ function Intro() {
           download
           className="mt-4 inline-block rounded bg-[#ad9830] px-4 py-2 font-medium text-white transition-colors duration-200 hover:bg-[#927f28]"
         >
-          Download CV
+          My Resume
         </a>
       </div>
 

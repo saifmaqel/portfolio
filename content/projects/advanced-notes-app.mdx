@@ -1,24 +1,28 @@
 ---
 title: "Advanced Notes App with JWT"
-summary: "A secure advanced MERN notes application with JWT authentication, protected routes, and middleware for API security."
+summary: "A 100% secure MERN notes application featuring HTTP-only refresh tokens, Redux-managed access tokens, and full role-based authentication and authorization."
 company: "Personal Project"
 location: "Amman, Jordan"
 date: "Sep 2025 – Present"
 repo: "https://github.com/saifmaqel/advanced-mern-notes-app"
-tags: [mern, react, node.js, express, mongodb, jwt]
+tags: [mern, react, node.js, express, mongodb, jwt, redux, security]
 ---
 
 ### Overview
 
-A secure **Advanced MERN Notes App** built with **React**, **Node.js/Express**, and **MongoDB**.  
-The app implements **JWT authentication**, protected routes, and middleware for API security.  
-It provides users with a robust system to create, read, update, and delete notes while maintaining secure session management.
+The main purpose of this project is to implement a **100% secure authentication and authorization system** using a dual-token strategy:
+
+- **Refresh token** stored securely in **HTTP-only cookies**.
+- **Access token** managed safely within the app state using **Redux**.
+
+The app ensures that all sensitive operations are protected against XSS and CSRF vulnerabilities, and user roles (Admin, Manager, Employee) determine access to specific routes and API endpoints.
 
 ### Achievements / Highlights
 
-- Built a **full-stack MERN application** with secure authentication.
-- Implemented **JWT login/logout and token refresh** for secure session handling.
-- Developed **protected API routes** using middleware to enforce access control.
-- Structured the frontend with **React components** for maintainability and reusability.
-- Ensured the application is **responsive** across devices.
-- Followed **best practices** for REST API design, error handling, and validation.
+- Implemented **secure dual-token authentication** (HTTP-only refresh + Redux access token).
+- Developed **protected routes and endpoints** with **role-based authorization**.
+- Built a **full-stack MERN application** following best practices for session and token management.
+- Structured the frontend using **React**, **Redux**, and **React Router** for maintainable state and navigation handling.
+- Ensured **API security** using Express middleware for token verification and access control.
+- Followed **industry-standard security and REST API design** principles for reliability and scalability.
+- Designed a **responsive and modular UI** with a focus on simplicity and reusability.
