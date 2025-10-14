@@ -51,7 +51,7 @@ export default async function Page({
 
         <ProjectTags tags={tags ?? []} />
 
-        <div className="prose prose-lg dark:prose-invert mx-auto mt-6 max-w-3xl rounded-lg shadow">
+        <div className="prose prose-lg dark:prose-invert mx-auto mt-6 max-w-3xl rounded-lg">
           <MDXRemote source={content} />
         </div>
       </div>

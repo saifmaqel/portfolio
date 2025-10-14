@@ -3,6 +3,7 @@ export const PROJECTS_ORDER = [
   "fas",
   "design-automation",
   "spider-game",
+  "library-management-system",
   "advanced-notes-app",
   "business-gate",
   "workout-tracker",
